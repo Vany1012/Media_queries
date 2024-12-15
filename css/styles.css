@@ -85,9 +85,6 @@
         color: white;
         margin: 2rem;
     }
-    #contenedor-puntosclave{
-        width: 22rem;
-    }
     .punto-clave{
         display: flex;
         flex-direction: column;
@@ -100,7 +97,7 @@
         border-radius: 2rem 0rem 0rem 2rem;;
         display: flex;
         background-color: rgba(139,72,191,0.3);
-        width: 80vw;
+
     }
     .numero{
         border-radius: 2rem;
@@ -126,8 +123,7 @@
     #contenedor-losmejore{
         text-align: center;
         }
-    
-        h2{
+    h2{
         font-size: 2rem;
         color: #242E53;
         text-align: center;
@@ -136,7 +132,7 @@
     .perfil-lebron{
         background-color: #FAFAFA;
         text-align: center;
-        width: 24rem;
+        width: 70vw;
         margin-bottom: 3rem;
     }
     .img-perfil-lebron{
