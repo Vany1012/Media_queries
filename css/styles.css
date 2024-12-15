@@ -2,6 +2,7 @@
     margin: 0;
     font-family: Vietnam sans-serif;
 }
+/*Para Dispositivos moviles*/
 @media (max-width: 480px) and (orientation: portrait){
     body{
         display: flex;
@@ -152,6 +153,285 @@
     }
     .perfil-navarro{
         display: none;
+    }
+    #more{
+        border-radius: 50px;
+        background-color: #8B48BF;
+        border: 0px;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+        width: 8rem;
+    }
+    #boton{
+        text-align: center;
+    }
+    #contenedor-cintillo2{
+        background-color: #3CDDF3;
+        text-align: center;
+        margin-top: 2rem;
+        padding: 3rem;
+    }
+    #frase{
+        font-size: 3rem;
+        color: white;
+    }
+    #goforit{
+        border-radius: 50px;
+        background-color: #232C50;
+        border: 0px;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+        margin: 1rem;
+        width: 8rem;
+    }
+    footer{
+        background-color: #1e1e26;
+        color: white;
+        text-align: center;
+        width: 100vw;
+    }
+    #inbox{
+        text-align: center;
+        padding: 2rem;
+    }
+    #inp-inbox{
+        border-radius: 2rem;
+        width: 18rem;
+        height: 2rem;
+    }
+    #go{
+        border-radius: 4rem;
+        background-color: #8B48BF;
+        border: 0px;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+        margin: 1rem;
+        width: 3.5rem;
+    }
+    #opciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 20rem;
+    }
+    #lista-izq li{
+        list-style-type: none;
+    }
+    #lista-der li{
+        list-style-type: none;
+    }
+    #iconos{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        width: 20rem;
+    }
+    .icono{
+        width: 1.3rem;
+    }
+    #logo-2{
+        display: flex;
+        justify-content: center;
+    }
+    #img-logo2{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    #nombre_marca2{
+        font-size: 1.5rem;
+    }
+    #copyright{
+        color: #8C8C94;
+        font-size: .8rem;
+        margin: 2rem;
+    }
+}
+
+/*Para Dispositivos desktop*/
+@media (min-width: 481px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+    }
+    #logo{
+        display: flex;
+        flex-direction: row;
+    }
+    .img-logo{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .nombre_marca{
+        font-size: 1.5rem;
+        color: #232C50;
+    }
+    #m-ham{
+        display: none;
+    }
+    #list-menu li{
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    #contact-1{
+        display: none;
+    }
+    #sect-imagen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+    }
+    #contenedor-imagen{
+        padding: 1rem;
+    }
+    #jugador{
+        width: 22rem;
+        height: 20rem;
+    }
+    #contenedor-titulo{
+        text-align: right;
+    }
+    h1{
+        font-size: 3.1rem;
+        color: #232C50;
+    }
+    #frase-inicio{
+        font-size: 1rem;
+    }
+    #contact-2{
+        border-radius: 50px;
+        background-color: #8B48BF;
+        border: 0px;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+        width: 8rem;
+    }
+    #contenedor-cintillo1{
+        background-color: #3CDDF3;
+        text-align: left;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+    #h2-whats{
+        font-size: 2.4rem;
+        color: white;
+        margin: 2rem;
+    }
+    #p-whats{
+        font-size: 1rem;
+        color: white;
+        margin: 2rem;
+    }
+    .punto-clave{
+        display: flex;
+        flex-direction: column;
+        align-content:center;
+        padding-left: 4rem;
+        height: 14rem;
+        margin-top: 1rem;
+    }
+    .barra{
+        border-radius: 2rem 0rem 0rem 2rem;;
+        display: flex;
+        background-color: rgba(139,72,191,0.3);
+
+    }
+    .numero{
+        border-radius: 2rem;
+        background-color: #8B48BF;
+        color: white;
+        text-align: center;
+        padding: .2rem;
+        height: 1.5rem;
+        width: 3rem;
+    }
+    .p-punto{
+        font-size: 1rem;
+        padding-left: .5rem;
+        padding-top: .3rem;
+    }
+    .informacion{
+        color: rgba(179, 178, 183, 1);
+        padding-top: 4rem;
+    }
+    #mejores{
+        text-align: center;
+    }
+    #contenedor-losmejore{
+        text-align: center;
+        }
+    h2{
+        font-size: 2rem;
+        color: #242E53;
+        text-align: center;
+        margin: 3rem;
+    }
+    .perfil-lebron{
+        background-color: #FAFAFA;
+        text-align: center;
+        width: 70vw;
+        margin-bottom: 3rem;
+    }
+    .img-perfil-lebron{
+        position: relative;
+        bottom: 2rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 100%;
+    }
+    .p-losmejores-lebron{
+        color: rgba(179, 178, 183, 1);
+        margin: 1rem;
+        padding-bottom: 2rem;
+    }
+    .perfil-sanyo{
+        background-color: #FAFAFA;
+        text-align: center;
+        width: 70vw;
+        margin-bottom: 3rem;
+    }
+    .img-perfil-sanyo{
+        position: relative;
+        bottom: 2rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 100%;
+    }
+    .p-losmejores-sanyo{
+        color: rgba(179, 178, 183, 1);
+        margin: 1rem;
+        padding-bottom: 2rem;
+    }
+    .perfil-navarro{
+        background-color: #FAFAFA;
+        text-align: center;
+        width: 70vw;
+        margin-bottom: 3rem;
+    }
+    .img-perfil-navarro{
+        position: relative;
+        bottom: 2rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 100%;
+    }
+    .p-losmejores-navarro{
+        color: rgba(179, 178, 183, 1);
+        margin: 1rem;
+        padding-bottom: 2rem;
     }
     #more{
         border-radius: 50px;
