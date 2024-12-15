@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    font-family: Vietnam sans-serif;
+}
+@media (max-width: 480px) and (orientation: portrait){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        align-items: center;
+    }
+    #logo{
+        display: flex;
+        flex-direction: row;
+    }
+    .img-logo{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .nombre_marca{
+        font-size: 1.5rem;
+        color: #232C50;
+    }
+    #m-ham{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    #menu{
+        display: none;
+    }
+    #contact-1{
+        display: none;
+    }
+    #sect-imagen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 25rem;
+        padding: 2rem;
+    }
+    #contenedor-imagen{
+        width: 25rem;
+        padding: 1rem;
+    }
+    #jugador{
+        width: 25rem;
+        height: 22rem;
+    }
+    #contenedor-titulo{
+        text-align: right;
+    }
+    h1{
+        font-size: 3.1rem;
+        color: #232C50;
+    }
+    #frase-inicio{
+        font-size: 1rem;
+    }
+    #contact-2{
+        border-radius: 50px;
+        background-color: #8B48BF;
+        border: 0px;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+        width: 8rem;
+    }
+    #contenedor-cintillo1{
+        background-color: #3CDDF3;
+        text-align: left;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        width: 100vw;
+    }
+    #h2-whats{
+        font-size: 2.4rem;
+        color: white;
+        margin: 2rem;
+    }
+    #p-whats{
+        font-size: 1rem;
+        color: white;
+        margin: 2rem;
+    }
+    #contenedor-puntosclave{
+        width: 28rem;
+    }
+    .punto-clave{
+        display: flex;
+        flex-direction: column;
+        align-content:center;
+        padding-left: 4rem;
+        height: 14rem;
+        margin-top: 1rem;
+    }
+    .barra{
+        border-radius: 2rem 0rem 0rem 2rem;;
+        display: flex;
+        background-color: rgba(139,72,191,0.3);
+        width: 24rem;
+    }
+    .numero{
+        border-radius: 2rem;
+        background-color: #8B48BF;
+        color: white;
+        text-align: center;
+        padding: .2rem;
+        height: 1.5rem;
+        width: 3rem;
+    }
+    .p-punto{
+        font-size: 1rem;
+        padding-left: .5rem;
+        padding-top: .3rem;
+    }
+    .informacion{
+        color: rgba(179, 178, 183, 1);
+        padding-top: 4rem;
+    }
+    #mejores{
+        text-align: center;
+    }
+    #contenedor-losmejore{
+        text-align: center;
+        }
+    
+        h2{
+        font-size: 2rem;
+        color: #242E53;
+        text-align: center;
+    }
+    .perfil{
+        background-color: #FAFAFA;
+        text-align: center;
+        width: 24rem;
+        margin-bottom: 3rem;
+    }
+    .img-perfil{
+        position: relative;
+        bottom: 2rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 100%;
+    }
+    .p-losmejores{
+        color: rgba(179, 178, 183, 1);
+        margin: 1rem;
+        padding-bottom: 2rem;
+    }
+    #more{
+        border-radius: 50px;
+        background-color: #8B48BF;
+        border: 0px;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+        width: 8rem;
+    }
+    #boton{
+        text-align: center;
+    }
+    #contenedor-cintillo2{
+        background-color: #3CDDF3;
+        text-align: center;
+        margin: 2rem;
+        padding: 3rem;
+        width: 100vw;
+    }
+    #frase{
+        font-size: 3.5rem;
+        color: white;
+    }
+    #goforit{
+        border-radius: 50px;
+        background-color: #232C50;
+        border: 0px;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+        margin: 1rem;
+        width: 8rem;
+    }
+    footer{
+        background-color: #1e1e26;
+        width: 100vw;
+        color: white;
+        text-align: center;
+    }
+    #inbox{
+        text-align: center;
+        padding: 2rem;
+    }
+    #inp-inbox{
+        border-radius: 2rem;
+        width: 18rem;
+        height: 2rem;
+    }
+    #go{
+        border-radius: 4rem;
+        background-color: #8B48BF;
+        border: 0px;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+        margin: 1rem;
+        width: 3.5rem;
+    }
+    #opciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 20rem;
+    }
+    #lista-izq li{
+        list-style-type: none;
+    }
+    #lista-der li{
+        list-style-type: none;
+    }
+    #iconos{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        width: 20rem;
+    }
+    .icono{
+        width: 1.3rem;
+    }
+    #logo-2{
+        display: flex;
+        justify-content: center;
+    }
+    #img-logo2{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    #nombre_marca2{
+        font-size: 1.5rem;
+    }
+    #copyright{
+        color: #8C8C94;
+        font-size: .8rem;
+        margin: 2rem;
+    }
+}
