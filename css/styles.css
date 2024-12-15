@@ -8,6 +8,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 100vw;
     }
     header{
         display: flex;
@@ -41,16 +42,14 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 25rem;
         padding: 2rem;
     }
     #contenedor-imagen{
-        width: 25rem;
         padding: 1rem;
     }
     #jugador{
-        width: 25rem;
-        height: 22rem;
+        width: 22rem;
+        height: 20rem;
     }
     #contenedor-titulo{
         text-align: right;
@@ -134,24 +133,31 @@
         font-size: 2rem;
         color: #242E53;
         text-align: center;
+        margin: 3rem;
     }
-    .perfil{
+    .perfil-lebron{
         background-color: #FAFAFA;
         text-align: center;
         width: 24rem;
         margin-bottom: 3rem;
     }
-    .img-perfil{
+    .img-perfil-lebron{
         position: relative;
         bottom: 2rem;
         width: 4.5rem;
         height: 4.5rem;
         border-radius: 100%;
     }
-    .p-losmejores{
+    .p-losmejores-lebron{
         color: rgba(179, 178, 183, 1);
         margin: 1rem;
         padding-bottom: 2rem;
+    }
+    .perfil-sanyo{
+        display: none;
+    }
+    .perfil-navarro{
+        display: none;
     }
     #more{
         border-radius: 50px;
@@ -173,7 +179,7 @@
         width: 100vw;
     }
     #frase{
-        font-size: 3.5rem;
+        font-size: 3rem;
         color: white;
     }
     #goforit{
@@ -188,9 +194,9 @@
     }
     footer{
         background-color: #1e1e26;
-        width: 100vw;
         color: white;
         text-align: center;
+        width: 100vw;
     }
     #inbox{
         text-align: center;
